@@ -1178,10 +1178,10 @@ Algoritmo Proyecto
 	Definir pos,lim Como Entero
 	Dimension menuEjercicios[36]
 	// Arreglo menu principal
-	menuEjercicios[1] <- "Ejercicio 1"
-	menuEjercicios[2] <- "Ejercicio 2"
-	menuEjercicios[3] <- "Ejercicio 3"
-	menuEjercicios[4] <- "Ejercicio 4"
+	menuEjercicios[1] <- "Ejercicio 1 Leer un carácter y deducir si está o no comprendido entre las letras 'a'... 'z' y 'A'...'Z'"
+	menuEjercicios[2] <- "Ejercicio 2 Leer un carácter y deducir si este es un numero(0..9) o una vocal(a,e,i,o,u)"
+	menuEjercicios[3] <- "Ejercicio 3  Dado un caracter vocal presentar su respectivo valor ascii"
+	menuEjercicios[4] <- "Ejercicio 4 Leer dos nombres y verificar si estos son iguales, si el primer nombre es menor que el segundo dado su contenido"
 	menuEjercicios[5] <- "Ejercicio 5"
 	menuEjercicios[6] <- "Ejercicio 6"
 	menuEjercicios[7] <- "Ejercicio 7"
@@ -1220,19 +1220,19 @@ Algoritmo Proyecto
 		Segun opc Hacer
 		
 			"1":
-				
+				Escribir "Leer un carácter y deducir si está o no comprendido entre las letras 'a'... 'z' y 'A'...'Z'"
 				comprendidoAyZ() 
 				Esperar 5 Segundos
 			"2":
-				
+				Escribir "Leer un carácter y deducir si este es un numero(0..9) o una vocal(a,e,i,o,u)"
 				carNumVoc()
 				Esperar 5 Segundos
 			"3":
-				
+				Escribir " Dado un caracter vocal presentar su respectivo valor ascii"
 				valorAscii()
 				Esperar 5 segundos 
 			"4"	:
-				
+				Escribir "Leer dos nombres y verificar si estos son iguales, si el primer nombre es menor que el segundo dado su contenido"
 				nombresIgualesMayor()
 				Esperar 5 segundos	
 			"5":
