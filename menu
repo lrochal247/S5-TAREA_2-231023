@@ -1180,16 +1180,16 @@ Algoritmo Proyecto
 	// Arreglo menu principal
 	menuEjercicios[1] <- "Ejercicio 1 Leer un carácter y deducir si está o no comprendido entre las letras 'a'... 'z' y 'A'...'Z'"
 	menuEjercicios[2] <- "Ejercicio 2 Leer un carácter y deducir si este es un numero(0..9) o una vocal(a,e,i,o,u)"
-	menuEjercicios[3] <- "Ejercicio 3  Dado un caracter vocal presentar su respectivo valor ascii"
+	menuEjercicios[3] <- "Ejercicio 3 Dado un caracter vocal presentar su respectivo valor ascii"
 	menuEjercicios[4] <- "Ejercicio 4 Leer dos nombres y verificar si estos son iguales, si el primer nombre es menor que el segundo dado su contenido"
-	menuEjercicios[5] <- "Ejercicio 5"
-	menuEjercicios[6] <- "Ejercicio 6"
-	menuEjercicios[7] <- "Ejercicio 7"
-	menuEjercicios[8] <- "Ejercicio 8"
-	menuEjercicios[9] <- "Ejercicio 9"
-	menuEjercicios[10] <- "Ejercicio 10"
-	menuEjercicios[11] <- "Ejercicio 11"
-	menuEjercicios[12] <- "Ejercicio 12"
+	menuEjercicios[5] <- "Ejercicio 5 Ingresar dos numeros y determinar si son iguales o si el primer numero es menor que el segundo dado su valor "
+	menuEjercicios[6] <- "Ejercicio 6  Ingresar 3 números, determinar cuál es el mayor o si son iguales"
+	menuEjercicios[7] <- "Ejercicio 7 Ingresar un numero y determinar si es neutro, positivo o negativo"
+	menuEjercicios[8] <- "Ejercicio 8  Determinar cuanto se debe pagar por x cantidad de lápices"
+	menuEjercicios[9] <- "Ejercicio 9 Almacén "Somos Mas" tiene una promoción: a todos los trajes que tienen un precio superior a 2500"
+	menuEjercicios[10] <- "Ejercicio 10 "Somos Mas" es una empresa dedicada a ofrecer banquetes"
+	menuEjercicios[11] <- "Ejercicio 11 La asociación de vinicultores tiene como política fijar un precio inicial al kilo de uva, la cual se clasifica en tipos A y B, y además en tamaños 1 y 2."
+	menuEjercicios[12] <- "Ejercicio 12 El director de carrera de software está organizando un viaje de estudios,y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagara la compañía de viajes por el servicio."
 	menuEjercicios[13] <- "Ejercicio 13"
 	menuEjercicios[14] <- "Ejercicio 14"
 	menuEjercicios[15] <- "Ejercicio 15"
@@ -1236,7 +1236,7 @@ Algoritmo Proyecto
 				nombresIgualesMayor()
 				Esperar 5 segundos	
 			"5":
-				
+				Escribir " Ingresar dos numeros y determinar si son iguales o si el primer numero es menor que el segundo dado su valor "
 				numIgualMen()
 				Esperar 5 segundos
 			"6":
